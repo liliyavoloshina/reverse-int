@@ -1,3 +1,3 @@
 const reverse = require('./index')
 
-reverse(123)
+reverse(-321)

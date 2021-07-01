@@ -1,4 +1,5 @@
 module.exports = function reverse (n) {
   const stringed = String(n)
-  stringed.split('').reverse().join()
+  const reversed = stringed.split('').reverse().join('')
+  return +reversed
 }
